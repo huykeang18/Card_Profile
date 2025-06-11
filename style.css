@@ -1,0 +1,97 @@
+body{
+    background-color: #28223f;
+}
+.card_bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: #231e39;
+    margin-top: 70px;
+    width: 350px;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0, 75);
+    border-radius: 10px;
+}
+.pro span{
+    background-color: rgb(255, 200, 0);
+    margin: 30px 30px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 3px;
+}
+.profile_bg{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.profile_radius1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid #03BFCB;
+}
+.profile_radius2{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.profile_radius2 img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.text_bg{
+    margin-top: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+.text_bg h3{
+    font-size: 20px;
+}
+.text_bg span{
+    font-size: 15px;
+}
+.btn_bg{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.btn_message{
+    padding: 12px 12px;
+    width: 120px;
+    background-color: #03BFCB;
+    border: #03BFCB;
+    border-radius: 3px;
+}
+.btn_following{
+    padding: 12px 12px;
+    width: 120px;
+    color: #03BFCB;
+    border: 1px solid #03BFCB;
+    background-color: transparent; /* This remove the background  */
+    border-radius: 3px;
+}
+.bg_skill{
+    background-color: #1F1A36;
+    color: whitesmoke;
+    padding: 5px 20px;
+    margin-top: 15px;
+
+}
+.bg_skill .btn button{
+    background-color: transparent;
+    padding: 7px 7px;
+    color: whitesmoke;
+    /* border: 1px solid #03BFCB; */
+    border-radius: 3px;
+    margin: 2px 2px;
+}
